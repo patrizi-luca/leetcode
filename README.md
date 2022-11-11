@@ -9,4 +9,4 @@ This problems mostly consist of real interview questions that are asked on big c
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|1946|[Integer to ROmans](https://leetcode.com/problems/largest-number-after-mutating-substring/) | [C++](./algorithms/cpp/largestNumberAfterMutatingSubstring/LargestNumberAfterMutatingSubstring.cpp), [Java](./algorithms/java/src/LargestNumberAfterMutatingSubtring/largestNumberAfterMutatingSubstring.java)|Medium|
+|1946|[Integer to Romans](https://leetcode.com/problems/integer-to-roman/) | [C++](./solutions/IntegerToRomans.cpp)|Medium|
