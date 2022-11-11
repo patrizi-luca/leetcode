@@ -8,5 +8,5 @@ This problems mostly consist of real interview questions that are asked on big c
 ## List of Problems
 
 | # | Title | Solution | Difficulty |
-|---| ----- | -------- | ---------- |--------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| 12    | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                                                                                                               | [c++]()            |Medium|
+|---| ----- | -------- | ---------- |
+|1946|[Integer to ROmans](https://leetcode.com/problems/largest-number-after-mutating-substring/) | [C++](./algorithms/cpp/largestNumberAfterMutatingSubstring/LargestNumberAfterMutatingSubstring.cpp), [Java](./algorithms/java/src/LargestNumberAfterMutatingSubtring/largestNumberAfterMutatingSubstring.java)|Medium|
