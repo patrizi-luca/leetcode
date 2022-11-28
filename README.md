@@ -9,5 +9,5 @@ This problems mostly consist of real interview questions that are asked on big c
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|1946|[Merge two Sorted List](https://leetcode.com/problems/merge-two-sorted-lists/) | [C++](./solutions/mergeTwoSortedList.cpp)[Python](./solutions/python/mergeTwoSortedList.py)|Easy|
+|1946|[Merge two Sorted List](https://leetcode.com/problems/merge-two-sorted-lists/) | [C++](./solutions/mergeTwoSortedList.cpp), [Python](./solutions/python/mergeTwoSortedList.py)|Easy|
 |1946|[Integer to Romans](https://leetcode.com/problems/integer-to-roman/) | [C++](./solutions/IntegerToRomans.cpp)|Medium|
