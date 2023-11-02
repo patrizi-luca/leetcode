@@ -16,7 +16,28 @@ class ListNode(object):
 
 class Solution:
   def addTwoNumbers(self, l1, l2, c = 0):
-    # Fill this in.
+        result = ListNode(0)
+        carry = c 
+        current = result
+
+        while l1 or l2:
+            x = l1.val if l1 else 0
+            y = l2.val if l2 else 0
+            sum = x + y + carry
+
+            carry = sum // 10 # Floor operation - ex: (17 // 10 = 1)
+            current.next = ListNode(sum % 10) # Mod operation - ex: (17 % 10 = 7)
+            current = current.next
+
+            if l1:
+                l1 = l1.next
+            if l2:
+                l2 = l2.next
+
+        if carry > 0:
+            current.next = ListNode(carry)
+
+        return result.next
 
 l1 = ListNode(2)
 l1.next = ListNode(4)
@@ -28,6 +49,6 @@ l2.next.next = ListNode(4)
 
 result = Solution().addTwoNumbers(l1, l2)
 while result:
-  print result.val,
+  print (result.val)
   result = result.next
 # 7 0 8
