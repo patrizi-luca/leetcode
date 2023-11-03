@@ -1,1 +1,29 @@
+Input: 
+Courses table:
++---------+----------+
+| student | class    |
++---------+----------+
+| A       | Math     |
+| B       | English  |
+| C       | Math     |
+| D       | Biology  |
+| E       | Math     |
+| F       | Computer |
+| G       | Math     |
+| H       | Math     |
+| I       | Math     |
++---------+----------+
+Output: 
++---------+
+| class   |
++---------+
+| Math    |
++---------+
 
+# Write a solution to find all the classes that have at least five students.
+
+SELECT  class
+FROM Courses
+GROUP By class
+#The GROUP BY clause returns one row for each group. In other words, it reduces the number of rows in the result set.
+HAVING COUNT(student) >= 5;
