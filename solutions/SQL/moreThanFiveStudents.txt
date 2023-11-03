@@ -25,5 +25,22 @@ Output:
 SELECT  class
 FROM Courses
 GROUP By class
-#The GROUP BY clause returns one row for each group. In other words, it reduces the number of rows in the result set.
+*/The GROUP BY clause returns one row for each group. In other words, it reduces the number of rows in the result set.
+
+
+When you use GROUP BY on the "class" column, it groups the rows by the class they belong to:
+
+Result of GROUP BY "class":
+
++----------+
+| class    |
++----------+
+| Math     |
+| English  |
+| Biology  |
+| Computer |
++----------+
+
+Each group represents a unique class, and you can perform aggregate functions like COUNT, SUM, AVG, etc., on these groups to get summary information for each class. 
+*/
 HAVING COUNT(student) >= 5;
