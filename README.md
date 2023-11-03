@@ -1,4 +1,4 @@
-# Leetcode C++ and Python solutions
+# Leetcode C++, Python and SQL solutions
 
 ## About
 
