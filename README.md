@@ -14,3 +14,4 @@ This problems mostly consist of real interview questions that are asked on big c
 |2|[Add Two Numbers in Linked Lists](https://leetcode.com/problems/integer-to-roman/](https://leetcode.com/problems/add-two-numbers/ ) | [Python](./solutions/python/AddTwoNumbersLinkedList.py)|Medium|
 |595|[Big Countries]( https://leetcode.com/problems/integer-to-roman/](https://leetcode.com/problems/add-two-numbers/](https://leetcode.com/problems/big-countries/) ) | [MySQL](./solutions/SQL/bigCountries.txt)|Easy|
 |596|[Classes More Than 5 Students]( https://leetcode.com/problems/classes-more-than-5-students/ ) | [MySQL](./solutions/SQL/moreThanFiveStudents.txt)|Easy|
+|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | [C**](./solutions/SQL/moreThanFiveStudents.txt)|Easy|
