@@ -28,7 +28,7 @@ TIMES = "*"
 DIVIDE = "/"
 
 def evaluate(root):
-  # Fill this in.
+#### Fill this in.
 
 tree = Node(TIMES)
 tree.left = Node(PLUS)
@@ -38,4 +38,4 @@ tree.right = Node(PLUS)
 tree.right.left = Node(4)
 tree.right.right = Node(5)
 print evaluate(tree)
-# 45
+45
