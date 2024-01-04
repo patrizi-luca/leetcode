@@ -4,13 +4,13 @@ You are given a binary tree representation of an arithmetic expression. In this 
 Write a function that takes this tree and evaluates the expression.
 
 Example:
-
+```
     *
    / \
   +    +
  / \  / \
 3  2  4  5
-
+```
 
 This is a representation of the expression (3 + 2) * (4 + 5), and should return 45.
 
