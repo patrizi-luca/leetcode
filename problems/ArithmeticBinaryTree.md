@@ -15,7 +15,7 @@ Example:
 This is a representation of the expression (3 + 2) * (4 + 5), and should return 45.
 
 Here's a starting point:
-
+```
 class Node:
   def __init__(self, val, left=None, right=None):
     self.val = val
@@ -29,7 +29,7 @@ DIVIDE = "/"
 
 def evaluate(root):
 #### Fill this in.
-
+```
 tree = Node(TIMES)
 tree.left = Node(PLUS)
 tree.left.left = Node(3)
