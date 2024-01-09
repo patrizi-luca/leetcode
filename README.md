@@ -16,5 +16,5 @@ This problems mostly consist of real interview questions that are asked on big c
 |596|[Classes More Than 5 Students]( https://leetcode.com/problems/classes-more-than-5-students/ ) | [MySQL](./solutions/SQL/moreThanFiveStudents.txt)|Easy|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | [C++](./solutions/MoveZeroes.cpp)|Easy|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [C++](./solutions/removeNthFromEnd.cpp)|Medium|
-|-|[Arithmetic Binary Tree](./problems/ArithmeticBinaryTree.md) | [Python](./solutions/ArithmeticBinaryTree.py)|Easy|
+|-|[Arithmetic Binary Tree](./problems/ArithmeticBinaryTree.md) | [Python](./solutions/python/ArithmeticBinaryTree.py)|Easy|
 |155|[MinStack](https://leetcode.com/problems/min-stack/) | [Python](./solutions/python/MinStack.py)|Medium|
