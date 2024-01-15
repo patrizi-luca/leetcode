@@ -20,3 +20,4 @@ This problems mostly consist of real interview questions that are asked on big c
 |155|[MinStack](https://leetcode.com/problems/min-stack/) | [Python](./solutions/python/MinStack.py)|Medium|
 |297|[Tree Serialization](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | [Python](./solutions/python/TreeSerialization.py)|Hard|
 |-|[Merge List Of Number Into Ranges](./problems/MergeListOfNumberIntoRanges.md) | [Python](./solutions/python/MergeListOfNumberIntoRanges.py)|Medium|
+|101|[ Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) | [Python](./solutions/python/SymmetricTree.py)|Medium|
