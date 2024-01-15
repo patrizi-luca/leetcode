@@ -18,9 +18,30 @@ class Node():
     self.value = value
     self.children = children
 
+
 def is_symmetric(root):
   # Fill this in.
   # My solution 
+    def is_mirror(left, right):
+        if not left and not right:
+            return True
+        if not left or not right or left.value != right.value:
+            return False
+        
+        left_children = left.children
+        right_children = right.children[::-1]  # Reverse the list for symmetric comparison
+
+        if len(left_children) != len(right_children):
+            return False
+
+        for l, r in zip(left_children, right_children):
+            if not is_mirror(l, r):
+                return False
+        return True
+
+    if not root:
+        return True
+    return is_mirror(root, root)
   
 
 tree = Node(4)
