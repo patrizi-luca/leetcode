@@ -20,6 +20,8 @@ class Node():
 
 def is_symmetric(root):
   # Fill this in.
+  # My solution 
+  
 
 tree = Node(4)
 tree.children = [Node(3), Node(3)]
